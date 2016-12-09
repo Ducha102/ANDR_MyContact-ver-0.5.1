@@ -16,7 +16,8 @@
         android:textSize="24sp"
         android:fontFamily="sans-serif-condensed"
         android:textColor="@android:color/holo_blue_dark"
-        android:textStyle="normal|bold" />
+        android:textStyle="normal|bold"
+        tools:text="@string/NewContactTitle" />
 
     <TextView
         android:layout_width="match_parent"
@@ -36,7 +37,7 @@
         android:layout_height="wrap_content">
 
         <TextView
-            android:text="Full Name"
+            android:text="@string/fname"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView5"
@@ -65,7 +66,7 @@
         android:layout_height="41dp">
 
         <TextView
-            android:text="Phone Number "
+            android:text="@string/phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView7"
@@ -74,7 +75,7 @@
             android:textColor="@color/colorPrimary" />
 
         <TextView
-            android:text="+84"
+            android:text="@string/phone_local"
             android:layout_width="27dp"
             android:layout_height="wrap_content"
             android:id="@+id/textView8"
@@ -86,13 +87,13 @@
             android:layout_height="wrap_content"
             android:inputType="phone"
             android:ems="10"
-            android:id="@+id/editText5"
+            android:id="@+id/txtPhone"
             android:layout_weight="5.50" />
 
     </LinearLayout>
 
     <TextView
-        android:text="General Infomation"
+        android:text="@string/gene_info"
         android:layout_width="match_parent"
         android:id="@+id/textView9"
         android:lineSpacingExtra="8sp"
@@ -112,7 +113,7 @@
         android:layout_weight="0.04">
 
         <TextView
-            android:text="Email"
+            android:text="@string/email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView10"
@@ -124,7 +125,7 @@
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress"
             android:ems="10"
-            android:id="@+id/editText6"
+            android:id="@+id/txtEmail"
             android:layout_weight="1.21"
             android:hint="example@mail.com" />
 
@@ -137,7 +138,7 @@
         android:layout_weight="0.11">
 
         <TextView
-            android:text="Address"
+            android:text="@string/address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textView11"
@@ -149,15 +150,15 @@
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editText7"
+            android:id="@+id/txtAddress"
             android:layout_weight="1.49" />
 
     </LinearLayout>
 
     <Button
-        android:text="Add Contact"
+        android:text="@string/btnAdd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/btnAddContact" />
 
 </LinearLayout>

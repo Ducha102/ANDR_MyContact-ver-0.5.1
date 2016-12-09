@@ -5,5 +5,12 @@
     <string name="newCt">New Contact</string>
     <string name="fname">Full Name</string>
     <string name="phone">Phone Number</string>
-    <string name="phone_local">+84</string>
+    <string name="phone_local">+(1)</string>
+    <string name="gene_info">General Infomation</string>
+    <string name="email">Email</string>
+    <string name="address">Address</string>
+    <string name="btnAdd">Add Contact</string>
+    <string name="NewContactTitle">New Contact</string>
+    <string name="ContactList">Contact List</string>
+
 </resources>

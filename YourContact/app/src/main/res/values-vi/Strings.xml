@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YourContact</string>
+
+    <string name="ctList">Danh Bạ</string>
+    <string name="newCt">Liên Lạc </string>
+    <string name="fname">Họ Tên</string>
+    <string name="phone">Số Điện Thoại</string>
+    <string name="phone_local">+(84)</string>
+    <string name="gene_info">Thông Tin Cá Nhân</string>
+    <string name="email">Hòm Thư </string>
+    <string name="address">Địa Chỉ </string>
+    <string name="btnAdd">Thêm Liên Lạc </string>
+    <string name="NewContactTitle">Liên Lạc Mới </string>
+    <string name="ContactList">Dạnh Bạ</string>
+</resources>

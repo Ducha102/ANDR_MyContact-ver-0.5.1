@@ -50,6 +50,26 @@ public class ContactAdapter extends ArrayAdapter {
         tvName.setText(contact.getFname());
         tvPhone.setText(contact.getPhone());
         tvEmail.setText(contact.getEmail());
+        
+        btnCall.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                CallAnyoneProcess();
+            }
+        });
+        
+        btnMsg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SendMsg4AnyoneProcess();
+            }
+        });
 ;       return item;
+    }
+
+    private void SendMsg4AnyoneProcess() {
+    }
+
+    private void CallAnyoneProcess() {
     }
 }
